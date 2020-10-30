@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Full-stack Google Books API search",
   "main": "server.js",
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "axios": "^0.20.0",
     "concurrently": "^5.3.0",
