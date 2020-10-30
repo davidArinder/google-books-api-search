@@ -8,7 +8,7 @@ _Currently setting up Heroku deployment. This text will be replaced with a link 
 
 1. Clone the project.
 2. Install dependencies.
-3. Create a `.env` file in the project root directory. You will need to use your own Google Books API key. Instructions [here](https://developers.google.com/books/docs/v1/using#APIKey).
+3. Create a `.env` file in the project root directory and write `key=`. You will need enter your own Google Books API key. Instructions [here](https://developers.google.com/books/docs/v1/using#APIKey).
 4. Setup MongoDB. Installation instructions found [here](https://docs.mongodb.com/guides/server/install/).
    1. If you're on Linux, you can follow these instructions.
       1. Navigate to the Community Server [download page](https://www.mongodb.com/try/download/community).
