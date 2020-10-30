@@ -1,7 +1,7 @@
 {
-  "name": "express-challenge",
+  "name": "Google Books API Search",
   "version": "1.0.0",
-  "description": "A small coding challenge to implement a full-stack integration with the Google Books API",
+  "description": "Full-stack Google Books API search",
   "main": "server.js",
   "dependencies": {
     "axios": "^0.20.0",
@@ -27,12 +27,9 @@
   "jest": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docnetwork/full-stack-challenge.git"
+    "url": "git+https://github.com/davidArinder/google-books-api-search"
   },
-  "author": "webteam@docnetwork.org",
+  "author": "David Arinder",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/docnetwork/full-stack-challenge/issues"
-  },
-  "homepage": "https://github.com/docnetwork/full-stack-challenge#readme"
+  "homepage": "https://github.com/davidArinder/google-books-api-search"
 }
