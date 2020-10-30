@@ -1,5 +1,5 @@
 {
-  "name": "Google Books API Search",
+  "name": "google-books-api-search",
   "version": "1.0.0",
   "description": "Full-stack Google Books API search",
   "main": "server.js",
