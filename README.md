@@ -1,12 +1,14 @@
 ## Introduction
 
-This is a rudimentary search app to query the Google Books API. It captures your query input, gathers results from the API, stores them in a database (MongoDB), and renders the results in the browser. Repeated searches use the data stored in the database rather than calling the API.
+This is a search app to query the Google Books API. It captures your query input, gathers results from the API, stores them in a database (MongoDB), and renders the results in the browser. Repeated searches use the data stored in the database rather than calling the API.
 
-## Project Setup
+_Currently setting up Heroku deployment. This text will be replaced with a link soon._
+
+## Local Project Setup
 
 1. Clone the project.
 2. Install dependencies.
-3. Create a `.env` file in the project root directory. Inside it, copy/paste the contents of the secret link shared in the email.
+3. Create a `.env` file in the project root directory. You will need to use your own Google Books API key. Instructions [here](https://developers.google.com/books/docs/v1/using#APIKey).
 4. Setup MongoDB. Installation instructions found [here](https://docs.mongodb.com/guides/server/install/).
    1. If you're on Linux, you can follow these instructions.
       1. Navigate to the Community Server [download page](https://www.mongodb.com/try/download/community).
