@@ -13,7 +13,7 @@ require("dotenv").config();
 
 const API_KEY = process.env.key;
 const DATABASE_NAME = "books-search";
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // Data parsing
 app.use(express.json());
