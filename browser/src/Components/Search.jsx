@@ -71,7 +71,7 @@ class Search extends Component {
   handleClear = () => {
     axios({
       method: "post",
-      url: `http://localhost:8000/books/clear`,
+      url: `https://darinder-google-books-search.herokuapp.com/books/clear`,
     })
       .then((response) => {
         const booksData = response.data;
@@ -89,7 +89,7 @@ class Search extends Component {
   makeApiCall = (searchInput) => {
     axios({
       method: "get",
-      url: `http://localhost:8000/books?q=${searchInput}`,
+      url: `https://darinder-google-books-search.herokuapp.com/books?q=${searchInput}`,
     })
       .then((response) => {
         const booksData = response.data;
